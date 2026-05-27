@@ -248,8 +248,7 @@ MusicIR/
 
 ## 👥 Authors
 
-**Gilberto Rios** — Data Science, Applied Mathematics and Statistics  
-**Arul Pandita** — Johns Hopkins University
+**Arul Pandita & Gilberto Rios** — Data Science, Applied Mathematics and Statistics, Johns Hopkins University
 
 EN.601.466 — Information Retrieval and Web Agents  
 Professor David Yarowsky · May 2026
