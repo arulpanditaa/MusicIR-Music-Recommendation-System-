@@ -126,7 +126,8 @@ pip install pandas numpy scikit-learn networkx streamlit requests beautifulsoup4
 | File | Description |
 |---|---|
 | `dataset.csv` | Spotify Tracks Dataset (~20MB, ~114K tracks) |
-| `artist_metadata_clean.csv` | Scraped and preprocessed artist bios (154 artists) |
+| `artist_metadata.csv` | Raw scraped artist bios (154 artists) |
+| `artist_metadata_clean.csv` | Preprocessed artist bios ready for TF-IDF |
 | `baseline_similarity.npy` | Precomputed 154×154 cosine similarity matrix |
 
 ### 3. Launch the app
@@ -212,10 +213,11 @@ MusicIR/
 ├── app.py                      # Streamlit application (entry point)
 ├── music_scraper.py            # Web scraping agent
 ├── IR_and_WA_Project.ipynb     # Full pipeline notebook
-├── artist_metadata_clean.csv   # Scraped artist bios (154 artists)
+├── artist_metadata.csv         # Raw scraped artist bios
+├── artist_metadata_clean.csv   # Preprocessed artist bios for TF-IDF
 ├── baseline_similarity.npy     # Precomputed similarity matrix
 ├── dataset.csv                 # Spotify Tracks Dataset
-├── MusicIR_Report_v2.pdf       # Full project report
+├── Report.pdf                  # Full project report
 └── screenshots/
     ├── drake_query.png
     └── zayn_query.png
@@ -246,8 +248,7 @@ MusicIR/
 
 ## 👥 Authors
 
-**Gilberto Rios** — Data Science, Applied Mathematics and Statistics  
-**Arul Pandita** — Johns Hopkins University  
+**Arul Pandita & Gilberto Rios** — Data Science, Applied Mathematics and Statistics, Johns Hopkins University
 
 EN.601.466 — Information Retrieval and Web Agents  
 Professor David Yarowsky · May 2026
