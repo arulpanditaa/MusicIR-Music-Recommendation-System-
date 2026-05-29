@@ -50,7 +50,7 @@ automatically from shared genre labels in the Spotify dataset.
 
 ### Query: Drake (hip-hop, pop)
 
-![Drake Query](screenshots/drake_query.png)
+![Drake Query](screenshots/drake_query.jpeg)
 
 The hybrid model introduced 5 artists not in the baseline:
 The Kid LAROI, AP Dhillon, Ali Gatie, Lil Nas X, Justin Bieber —
@@ -58,7 +58,7 @@ all genre-coherent with Drake's hip-hop and pop profile.
 
 ### Query: ZAYN (dance, pop)
 
-![ZAYN Query](screenshots/zayn_query.png)
+![ZAYN Query](screenshots/zayn_query.jpeg)
 
 The hybrid model introduced 6 artists not in the baseline:
 Sam Smith, Gym Class Heroes, Camila Cabello, Selena Gomez,
