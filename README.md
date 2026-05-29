@@ -219,8 +219,8 @@ MusicIR/
 ├── dataset.csv                 # Spotify Tracks Dataset
 ├── Report.pdf                  # Full project report
 └── screenshots/
-    ├── drake_query.png
-    └── zayn_query.png
+    ├── drake_query.jpeg
+    └── zayn_query.jpeg
 ```
 
 ---
